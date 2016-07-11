@@ -1,0 +1,13 @@
+1. How long did you spend working on this project?
+Around 6 hours
+
+2. What was the most rewarding challenge you conquered?
+1) The way of breaking down the task into small pieces, especially the complex ones with mutiple classes like this.
+2) Using class attributes and methods in Ruby
+
+3. What two additional features did you build? Why?
+1) Add "brand" attribute to Product as well as find_by_brand method, because it makes this app closer to the hierarchy of a pratical inventory system
+2) Add a feature of finding all transactions for a specific product, as I think it's a important summary and information of an inventory system.
+
+4. Where do you still have room to grow?
+I feel I am not writing Ruby in the most efficient way, and I could do better on coding style.

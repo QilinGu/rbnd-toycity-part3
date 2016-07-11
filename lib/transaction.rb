@@ -20,6 +20,10 @@ class Transaction
 		@@transactions.find {|transaction| transaction.id == id}
 	end
 
+	def self.all_by_product (product)
+		@@transactions.find_all {|transaction| transaction.product == product }
+	end
+
 	def add_transaction
 		if @product.stock <= 0
 			raise OutOfStockError, "'#{@product.title}' is out of stock."
